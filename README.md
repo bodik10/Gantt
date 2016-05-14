@@ -10,4 +10,4 @@ Function that draws simple Gantt charts (https://en.wikipedia.org/wiki/Gantt_cha
  - 250 is a width of header column (200 is default)
 
 # Sample
-![Image of Yaktocat](https://github.com/bodik10/starrating/blob/master/img/sample.JPG)
+![Image of Yaktocat](https://github.com/bodik10/Gantt/blob/master/sample.JPG)
