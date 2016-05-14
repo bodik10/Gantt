@@ -1,0 +1,21 @@
+[
+    {"name": "Main Process 1", "start": "2016-04-20", "finish": "2016-05-05", "subprocesses": [
+        {"name": "Sub Process 1", "start": "2016-04-15", "finish": "2016-04-15", "subprocesses": []},
+        {"name": "Sub Process 2", "start": "2016-04-28", "finish": "2016-05-08", "subprocesses": [
+            {"name": "Sub Sub Process 1", "start": "2016-04-15", "finish": "2016-04-16", "subprocesses": []},
+            {"name": "Sub Sub Process 2", "start": "2016-04-16", "finish": "2016-04-17", "subprocesses": []},
+            {"name": "Sub Sub Process 3", "start": "2016-04-17", "finish": "2016-04-18", "subprocesses": []},
+            {"name": "Sub Sub Process 4", "start": "2016-04-19", "finish": "2016-04-20", "subprocesses": [
+                {"name": "Sub Sub Sub Process 1", "start": "2016-04-20", "finish": "2016-04-20", "subprocesses": []}
+            ]}
+        ]},
+        {"name": "Sub Process 3", "start": "2016-04-21", "finish": "2016-05-01", "subprocesses": []}
+    ]},
+    {"name": "Main Process 2", "start": "2016-04-17", "finish": "2016-04-18", "subprocesses": []},
+    {"name": "Main Process 3", "start": "2016-04-17", "finish": "2016-04-30", "subprocesses": []},
+    {"name": "Main Process 4", "start": "2016-04-29", "finish": "2016-05-05", "subprocesses": []},
+    {"name": "Main Process 4", "start": "2016-04-15", "finish": "2016-05-08", "subprocesses": [
+        {"name": "Sub Process 1", "start": "2016-04-15", "finish": "2016-04-15", "subprocesses": []},
+        {"name": "Sub Process 2", "start": "2016-04-28", "finish": "2016-05-08", "subprocesses": []}
+    ]}
+]
