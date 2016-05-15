@@ -155,7 +155,7 @@ function Gantt(data, destid, width, captionWidth = 200){
             
             var startDate = new Date(minDate);
             
-            for (var j = 0; j < days; j++){
+            for (var j = 0; j <= days; j++){
                 var divLegend = document.createElement("div");
                 divLegend.className = "gantt_legend";
                 divLegend.style.width = (cellWidth + 1) + "px";
