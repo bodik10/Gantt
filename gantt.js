@@ -52,6 +52,9 @@ function Gantt(data, destid, width, captionWidth = 200){
         // hide/show subprocesses
         for (var i=0; i<nested.length; i++){
             if (isShow){
+                var spanPlus = nested[i].querySelector("span.gantt_plus[data-id]");
+                if (spanPlus)
+                    spanPlus.innerText = "-";
                 nested[i].style.display = "block";
             } else {
                 nested[i].style.display = "none";
